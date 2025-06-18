@@ -8,7 +8,7 @@
 
 <p align="left">
   Hi! I'm <b>Matheus Constantino</b>, a passionate Software Engineer from São Paulo, Brazil.<br><br>
-  - 🔭 I’m currently working as a Mid-Level Software Engineer and Tech Lead at <b>We are Dvlopers</b>.<br>
+  - 🔭 I’m currently working as a Senior Software Engineer and Tech Lead at <b>We are Dvlopers</b>.<br>
   - 📚 I’m learning more about <b>Mobile Development</b> to expand my skill set.<br>
   - 🚀 I enjoy exploring innovative solutions and tackling challenging problems.<br>
   - ⚡ Outside of coding, I love exercising, spending time with friends, and discovering new places.
