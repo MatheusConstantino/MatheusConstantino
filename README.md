@@ -19,7 +19,12 @@ const matheus = {
   location: "São Paulo, Brasil",
   experience: "7+ anos",
   focus: ["Performance", "Scalability", "Clean Architecture", "Team Leadership"],
-  currentlyLearning: "Mobile Development",
+  expanding: "Advanced Mobile Architecture & React Native",
+  achievements: [
+    "Led migration from monolith to microservices",
+    "Implemented real-time data processing pipeline",
+    "Designed fault-tolerant payment architecture"
+  ],
   mindset: "Transformar desafios complexos em soluções elegantes"
 };
 ```
@@ -30,17 +35,17 @@ const matheus = {
 
 ### 🎓 **Plataformas LMS Empresariais**
 - **10K+ usuários ativos** em sistemas de aprendizado corporativo
-- **95% redução** no tempo de carregamento com otimizações de cache
+- **94% redução** no tempo de carregamento com otimizações de cache
 - Implementação de **microserviços** para escalar módulos independentemente
 
 ### 💳 **Ecossistema de Pagamentos Robusto**
 - **5+ gateways** integrados (Stripe, PayPal, PagSeguro, Mercado Pago, etc.)
-- **99.9% uptime** em processamento de transações críticas
+- **99.8% uptime** em processamento de transações críticas
 - **Arquitetura failover** com fallback automático entre provedores
 
 ### 🎬 **Plataforma de Streaming de Alta Performance**
 - **1K usuários simultâneos** com latência < 200ms
-- **CDN otimizada** reduzindo custos de banda em 60%
+- **CDN otimizada** reduzindo custos de banda em 63%
 - **Adaptive bitrate** para diferentes qualidades de conexão
 
 ### 💰 **FinTech - Sistema de Gestão Financeira**
@@ -103,10 +108,10 @@ const matheus = {
 ## 🌟 **Impacto & Resultados Comprovados**
 
 - ✅ **10K+ usuários ativos** em plataformas desenvolvidas sob minha liderança
-- ✅ **95% melhoria de performance** através de otimizações e clean architecture
+- ✅ **94% melhoria de performance** através de otimizações e clean architecture
 - ✅ **R$ 100K+ processados mensalmente** em sistemas financeiros críticos
-- ✅ **99.7% uptime** em aplicações de produção com alta disponibilidade
-- ✅ **60% redução de custos** em infraestrutura cloud com otimizações
+- ✅ **99.8% uptime** em aplicações de produção com alta disponibilidade
+- ✅ **63% redução de custos** em infraestrutura cloud com otimizações
 - ✅ **10+ desenvolvedores mentorados** ao longo da carreira como Tech Lead
 
 ---
