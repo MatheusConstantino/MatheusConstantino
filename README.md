@@ -1,84 +1,130 @@
-<h1 align="center">Hey there 👋</h1>
+<h1 align="center">👋 Olá! Eu sou o Matheus Constantino</h1>
 
-###
+<h3 align="center">🚀 Senior Software Engineer & Tech Lead | 7+ anos transformando ideias em soluções escaláveis</h3>
 
-<h3 align="left">👨‍💻 About Me</h3>
-
-###
-
-<p align="left">
-  Hi! I'm <b>Matheus Constantino</b>, a passionate Software Engineer from São Paulo, Brazil.<br><br>
-  - 🔭 I’m currently working as a Senior Software Engineer and Tech Lead at <b>We are Dvlopers</b>.<br>
-  - 📚 I’m learning more about <b>Mobile Development</b> to expand my skill set.<br>
-  - 🚀 I enjoy exploring innovative solutions and tackling challenging problems.<br>
-  - ⚡ Outside of coding, I love exercising, spending time with friends, and discovering new places.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Tech+Lead+%26+Mentor;AWS+%26+Azure+Specialist;Clean+Architecture+Advocate" alt="Typing SVG" />
 </p>
 
-###
+---
 
-<h3 align="left">🛠 Language and Tools</h3>
+## 🎯 **Sobre Mim**
 
-### 
+Sou um **desenvolvedor sênior apaixonado por tecnologia** com mais de **7 anos** criando soluções web escaláveis que fazem a diferença. Como **Tech Lead**, combino expertise técnica com liderança estratégica para entregar produtos que agregam valor real ao negócio.
 
-<h4 align="left">Frontend</h4>
+```javascript
+const matheus = {
+  role: "Senior Software Engineer & Tech Lead",
+  company: "We are Dvlopers",
+  location: "São Paulo, Brasil",
+  experience: "7+ anos",
+  focus: ["Performance", "Scalability", "Clean Architecture", "Team Leadership"],
+  currentlyLearning: "Mobile Development",
+  mindset: "Transformar desafios complexos em soluções elegantes"
+};
+```
+
+---
+
+## 🏆 **Projetos de Destaque**
+
+### 🎓 **Plataformas LMS Completas**
+- Desenvolvimento de sistemas de aprendizado online robustos
+- Gestão de usuários, cursos e certificações em larga escala
+
+### 💳 **Integração com 5+ Gateways de Pagamento**
+- Arquitetura flexível para múltiplos provedores
+- Processamento seguro e confiável de transações
+
+### 🎬 **Plataformas de Streaming**
+- Soluções de alta performance para entrega de conteúdo
+- Otimização para milhares de usuários simultâneos
+
+### 💰 **Sistemas de Gestão Financeira**
+- Ferramentas avançadas para controle e análise financeira
+- Integração com APIs bancárias e relatórios automatizados
+
+---
+
+## 🛠️ **Arsenal Tecnológico**
+
+### **Frontend**
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="40" alt="React logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="40" alt="HTML5 logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="40" alt="CSS3 logo" />
+  <img src="https://skillicons.dev/icons?i=react,vue,js,ts,html,css" />
 </div>
 
-### 
-
-<h4 align="left">Backend</h4>
+### **Backend**
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="40" alt="Node.js logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="PHP logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" />
+  <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,python" />
 </div>
 
-### 
-
-<h4 align="left">Databases</h4>
+### **Databases**
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="MySQL logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="40" alt="PostgreSQL logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="40" alt="MongoDB logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" height="40" alt="Redis logo" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,redis" />
 </div>
 
-### 
-
-<h4 align="left">Cloud</h4>
+### **Cloud & DevOps**
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="AWS logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="Firebase logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" height="40" alt="Docker logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" height="40" alt="Kubernetes logo" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,firebase" />
 </div>
 
-### 
-
-<h4 align="left">Tools</h4>
+### **Tools & Practices**
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="40" alt="Git logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="40" alt="VSCode logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="40" alt="GitHub logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" height="40" alt="Jira logo" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</div>
+
+**Metodologias:** Clean Code • TDD • DDD • Design Patterns • CI/CD • Microservices • Scrum
+
+---
+
+## 📊 **Estatísticas GitHub**
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
+
+---
+
+## 💼 **Experiência Profissional**
+
+**🎯 Tech Lead & Senior Software Engineer** @ We are Dvlopers
+- Liderança técnica de times multidisciplinares
+- Mentoria e desenvolvimento de desenvolvedores júnior/pleno
+- Arquitetura de soluções escaláveis e performáticas
+- Interface direta com stakeholders e definição de roadmaps técnicos
+
+---
+
+## 🌟 **Diferenciais**
+
+- ✅ **7+ anos** de experiência em projetos web de alta complexidade
+- ✅ **Liderança técnica** com foco em qualidade e entrega de valor
+- ✅ **Especialista em Cloud** (AWS e Azure) com práticas DevOps
+- ✅ **Arquitetura limpa** seguindo princípios SOLID e Clean Code
+- ✅ **Metodologias ágeis** com experiência em Scrum e refinamentos
+- ✅ **Mentalidade de crescimento** sempre aprendendo e evoluindo
+
+---
+
+## 📫 **Vamos Conectar?**
+
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_LINKEDIN)
+  [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SEU_EMAIL)
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEU_USERNAME)
+  
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=SEU_USERNAME&color=blue&style=flat-square&label=Profile+Views" />
+</div>
+
+---
+
+<h3 align="center">💡 "A tecnologia é melhor quando aproxima as pessoas" - Matt Mullenweg</h3>
+
+<div align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" />
 </div>
