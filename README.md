@@ -37,7 +37,7 @@ What this looks like in practice:
 - **GeoServer** layer publishing and SRID validation at scale
 - **Angular (NX monorepo)** for front end — making geographic validation results understandable to engineers and regulators
 
-Stack: `Angular` `NX Monorepo` `Node.js` `TypeScript` `RabbitMQ` `PostGIS` `SQL Server` `GeoServer` `PostgreSQL` `MongoDB`
+Stack: `Angular` `NX Monorepo` `Node.js` `TypeScript` `RabbitMQ` `.NET (processing motors)` `PostGIS` `SQL Server` `GeoServer` `PostgreSQL`
 
 ---
 
@@ -67,7 +67,7 @@ Shipped production features across 4 different domains. Same discipline every ti
 - Real-time pipeline with PostgreSQL for financial reconciliation
 - R$100K+ transactions/month with full audit trail and compliance
 
-Stack: `Node.js` `React` `Vue` `TypeScript` `PostgreSQL` `MongoDB` `Redis` `RabbitMQ` `AWS`
+Stack: `Node.js` `React` `Vue` `TypeScript` `PostgreSQL` `MongoDB` `Redis` `AWS`
 
 ---
 
