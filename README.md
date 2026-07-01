@@ -83,6 +83,8 @@ I designed the full development workflow of [`poc-geoserver-sqlserver`](https://
 
 The philosophy: **AI as a system component with defined responsibilities**, not a chat window you paste code into.
 
+**In production at Kaffa Tech**, this same discipline runs on the BDGD pipeline: autonomous QA, deploy, and prioritization agents, plus an onboarding RAG that gives new engineers the same context the team already has. Result: sprint throughput up from 77 to 170 points (same 5-engineer team), recurring bug rate down from 20% to 5%, and zero production incidents from build/security failures since the pipeline went live.
+
 ---
 
 ### Technical decisions I think about
@@ -119,7 +121,7 @@ DevOps    →  Docker · Docker Compose · GitHub Actions · AWS
 | Project | What it demonstrates |
 |---------|---------------------|
 | [poc-geoserver-sqlserver](https://github.com/MatheusConstantino/poc-geoserver-sqlserver) | SQL Server vs PostGIS spatial benchmark — 15 scenarios, AI-generated insights via Claude API, multi-agent dev workflow, full CI/CD |
-| **rebanho** *(private)* | Platform for organizing and managing religious community events — Supabase + TypeScript |
+| **rebanho** *(private)* | White-label SaaS for churches/prayer groups (people, events, service scheduling, finance) — built with a 6-agent AI dev team (PO, Scrum Master, QA, Dev, Infra, UX/UI), spec-first workflow, full CI/CD to staging/production. Next.js + Supabase. |
 
 ---
 
