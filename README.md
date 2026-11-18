@@ -1,7 +1,7 @@
 <h1 align="center">Matheus Constantino</h1>
 
 <p align="center">
-  Full Stack Engineer &nbsp;·&nbsp; Geospatial &nbsp;·&nbsp; Distributed Systems &nbsp;·&nbsp; AI Integration<br/>
+  Full Stack Engineer &nbsp;·&nbsp; EdTech at Scale &nbsp;·&nbsp; Distributed Systems &nbsp;·&nbsp; AI Integration<br/>
   7 years building products where data volume, spatial precision, and deadlines actually matter
 </p>
 
@@ -19,7 +19,28 @@ I build systems at the intersection of **high-volume data processing, geospatial
 
 ---
 
-### Currently: Kaffa Tech — BDGD Pipeline
+### Currently: Letrus — Pedagogical Diagnostics at Scale
+
+Letrus is an EdTech platform reaching 1.2M+ students across public and private schools in Brazil, using AI-assisted diagnostics to drive personalized reading and writing instruction.
+
+```
+[React/TypeScript — Student, Teacher apps] → [Django REST API] → [Kubernetes/EKS]
+                                                      ↓
+                                    [PostgreSQL/MySQL + Celery async workers]
+                                                      ↓
+          [Public API — Node.js / AWS Lambda / SQS / DynamoDB] → [Partner EdTech data sync]
+```
+
+What this looks like in practice:
+- Rebuilt the student diagnostic engine — from a single aggregate score to a skill-by-skill, block-by-block progression model — API in Django, new student-facing results experience in React
+- Redesigned a partner EdTech data-sync integration (schools, classes, enrollments), replacing a custom orchestration layer with a data-import mechanism already proven in production across multiple state education networks
+- Hardened the core API's security posture: closed access-control gaps on high-traffic endpoints, replaced hardcoded credential fallbacks with required environment-variable validation (fail the boot, don't run with a weak default)
+
+Stack: `Python` `Django` `Node.js` `TypeScript` `React` `AWS (EKS, Lambda, SQS, DynamoDB)` `PostgreSQL` `MySQL` `Celery`
+
+---
+
+### Previously: Kaffa Tech — BDGD Pipeline
 
 The BDGD (Base de Dados Geográficos da Distribuidora) is the geospatial database that every electricity distributor in Brazil must validate and deliver to ANEEL. It's ~30 GB of spatial data per release, tables with **30M+ rows**, dozens of validation rules, and hard regulatory deadlines.
 
@@ -83,7 +104,9 @@ I designed the full development workflow of [`poc-geoserver-sqlserver`](https://
 
 The philosophy: **AI as a system component with defined responsibilities**, not a chat window you paste code into.
 
-**In production at Kaffa Tech**, this same discipline runs on the BDGD pipeline: autonomous QA, deploy, and prioritization agents, plus an onboarding RAG that gives new engineers the same context the team already has. Result: sprint throughput up from 77 to 170 points (same 5-engineer team), recurring bug rate down from 20% to 5%, and zero production incidents from build/security failures since the pipeline went live.
+**At Kaffa Tech**, this same discipline ran on the BDGD pipeline: autonomous QA, deploy, and prioritization agents, plus an onboarding RAG that gave new engineers the same context the team already had. Result: sprint throughput up from 77 to 170 points (same 5-engineer team), recurring bug rate down from 20% to 5%, and zero production incidents from build/security failures since the pipeline went live.
+
+**Today at Letrus**, I apply the same philosophy to the team's AI-assisted engineering workflow — role-specialized agents covering product clarification, spec writing, feasibility checks, code review, and adherence auditing, chained into one pipeline. It's now the team's standard way of shipping, not a side experiment.
 
 ---
 
@@ -107,7 +130,7 @@ STIntersects on large POLYGON inputs can cause full scans if selectivity is low.
 
 ```
 Frontend  →  Angular (NX monorepo) · React (2022–) · Vue (2018–)
-Backend   →  Node.js · TypeScript · Fastify · RabbitMQ · REST
+Backend   →  Node.js · TypeScript · Fastify · RabbitMQ · REST · Python · Django · Celery
 Spatial   →  PostGIS · SQL Server Spatial · GeoServer
 Data      →  PostgreSQL · SQL Server · MongoDB · Supabase
 AI        →  Claude API · Anthropic SDK · multi-agent workflows
@@ -122,6 +145,7 @@ DevOps    →  Docker · Docker Compose · GitHub Actions · AWS
 |---------|---------------------|
 | [poc-geoserver-sqlserver](https://github.com/MatheusConstantino/poc-geoserver-sqlserver) | SQL Server vs PostGIS spatial benchmark — 15 scenarios, AI-generated insights via Claude API, multi-agent dev workflow, full CI/CD |
 | **rebanho** *(private)* | White-label SaaS for churches/prayer groups (people, events, service scheduling, finance) — built with a 6-agent AI dev team (PO, Scrum Master, QA, Dev, Infra, UX/UI), spec-first workflow, full CI/CD to staging/production. Next.js + Supabase. |
+| **Letrus diagnostics redesign** *(private, proprietary)* | Rebuilt a single-score diagnostic into a skill-by-skill progression model serving 1.2M+ students — API + new result UX |
 
 ---
 
@@ -130,6 +154,7 @@ DevOps    →  Docker · Docker Compose · GitHub Actions · AWS
 - **30 GB** BDGD processed per release cycle
 - **30M+** rows handled in batch with optimized write strategies
 - **15** spatial benchmark scenarios automated end-to-end
+- **1.2M+** students reached by the product I currently work on
 - **7 years** writing production code across spatial, fintech, media, and education
 
 ---
